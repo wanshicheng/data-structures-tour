@@ -1,11 +1,14 @@
 # 数据结构
-
+对于学习计算机的同学来说，"数据结构"的重要性不言而喻，同时也是其他理工专业的热门选修课。
 ## 工具
 ### Visual Studio Code
 #### 插件
 - C/C++ Clang Command Adapter
 - Code Runner
+- VSCode Great Icons
+- One Dark Pro
 #### 配置
+Windows
 ```json
 {
     "workbench.colorTheme": "One Dark Pro Vivid",
@@ -58,6 +61,12 @@
 ```
 
 ### MSYS2
+可以参照下面的网址
+
+https://mirrors.tuna.tsinghua.edu.cn/help/msys2/
+
+修改 pacman 的镜像。
+
 pacman -S mingw-w64-x86_64-gcc
 
 pacman -S mingw-w64-i686-gcc
@@ -66,8 +75,6 @@ pacman -S mingw-w64-i686-gcc
 
 32位：--target=i686-w64-mingw32
 64位：--target=x86_64-w64-mingw32
-
-https://mirrors.tuna.tsinghua.edu.cn/help/msys2/
 
 ## 参考资料
 
