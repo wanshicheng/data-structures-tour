@@ -6,6 +6,7 @@
 - C/C++ Clang Command Adapter
 - Code Runner
 #### 配置
+```json
 {
     "workbench.colorTheme": "One Dark Pro Vivid",
     "code-runner.runInTerminal": true,
@@ -54,6 +55,7 @@
         "nim": "nim compile --verbosity:0 --hints:off --run"
     }
 }
+```
 
 ### MSYS2
 pacman -S mingw-w64-x86_64-gcc
