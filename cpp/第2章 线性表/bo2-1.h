@@ -40,8 +40,6 @@ Status GetElem(SqList L, int i, ElemType &e)
 }
 int LocateElem(SqList L, ElemType e, Status(*compare)(ElemType, ElemType))
 { 
-  
-  
   int i=1; 
   ElemType *p=L.elem; 
   while(i<=L.length && !compare(*p++, e))
@@ -53,8 +51,6 @@ int LocateElem(SqList L, ElemType e, Status(*compare)(ElemType, ElemType))
 }
 Status PriorElem(SqList L, ElemType cur_e, ElemType &pre_e)
 { 
-  
-  
   int i=2; 
   ElemType *p=L.elem+1; 
   while(i<=L.length && *p!=cur_e) 
@@ -70,8 +66,6 @@ Status PriorElem(SqList L, ElemType cur_e, ElemType &pre_e)
 }
 Status NextElem(SqList L, ElemType cur_e, ElemType &next_e)
 { 
-  
-  
   int i=1; 
   ElemType *p=L.elem; 
   while(i<L.length && *p!=cur_e) 
@@ -87,7 +81,6 @@ Status NextElem(SqList L, ElemType cur_e, ElemType &next_e)
 }
 Status ListInsert(SqList &L, int i, ElemType e) 
 { 
-  
   ElemType *newbase, *q, *p;
   if(i<1 || i>L.length+1) 
     return ERROR;

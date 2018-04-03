@@ -14,7 +14,6 @@ void Free(SLinkList space, int k)
 }
 void InitList(SLinkList L)
 { 
-  
   int i;
   L[MAX_SIZE-1].cur=0; 
   for(i=0; i<MAX_SIZE-2; i++) 

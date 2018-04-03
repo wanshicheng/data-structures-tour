@@ -4,7 +4,7 @@ typedef int ElemType;
 #include"c2-4.h" 
 #include"bo2-7.h" 
 #include"func2-2.h" 
-void main()
+int main()
 {
   DuLinkList L;
   int i, n=4;

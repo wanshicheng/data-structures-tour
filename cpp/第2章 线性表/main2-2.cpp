@@ -5,4 +5,3 @@ typedef int ElemType;
 #include"bo2-2.h" 
 #include"func2-2.h" 
 #include"func2-3.h" 
-

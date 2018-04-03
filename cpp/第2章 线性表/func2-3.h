@@ -1,6 +1,6 @@
 // func2-3.h 检验单链表基本操作的主函数
 // main2-2.cpp、main2-3.cpp、main2-4.cpp和main2-5.cpp调用
-void main()
+int main()
 {
   LinkList L; 
   ElemType e, e0;

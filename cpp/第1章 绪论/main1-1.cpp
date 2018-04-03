@@ -4,9 +4,10 @@
 typedef int ElemType;
 // typedef double ElemType; //
 // 定义抽象数据类型ElemType在本程序中为双精度型。第5行
-#include "bo1-1.h"
 #include "c1-1.h"
+#include "bo1-1.h"
 #include "func1-1.h"
+
 int main() {
   Triplet T;
   ElemType m;
