@@ -5,7 +5,7 @@ typedef int SElemType;
 #include"bo3-1.h" 
 #define ElemType SElemType 
 #include"func2-2.h" 
-void main()
+int main()
 {
   int j;
   SqStack s;
