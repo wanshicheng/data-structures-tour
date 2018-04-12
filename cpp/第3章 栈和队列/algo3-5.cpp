@@ -45,7 +45,7 @@ SElemType EvaluateExpression()
   }
   return x;
 }
-void main()
+int main()
 {
   printf("请输入算术表达式（输入的值要在0～9之间、");
   printf("中间运算值和输出结果在-128～127之间）\n");

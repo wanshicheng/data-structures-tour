@@ -122,7 +122,7 @@ Status MazePath(PosType start, PosType end)
   }while(!StackEmpty(S));
   return FALSE;
 }
-void main()
+int main()
 {
   Init(); 
   if(MazePath(begin, end)) 

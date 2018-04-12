@@ -55,7 +55,7 @@ SElemType EvaluateExpression()
   DestroyStack(OPND);
   return x;
 }
-void main()
+int main()
 {
   printf("请输入算术表达式，负数要用（0-正数）表示\n");
   printf("%d\n", EvaluateExpression());

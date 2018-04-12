@@ -18,7 +18,7 @@ void hanoi(int n, char x, char y, char z)
     
   }
 }
-void main()
+int main()
 {
   int n;
   printf("3个塔座为a、b、c，圆盘最初在a座，借助b座移到c座。请输入圆盘数：");

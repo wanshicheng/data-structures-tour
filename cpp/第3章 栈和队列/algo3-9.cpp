@@ -127,7 +127,7 @@ void Bank_Simulation()
   printf("客户总数:%d,所有客户共耗时:%ld分钟,平均每人耗时:%d分钟,", CustomerNum, TotalTime, TotalTime/CustomerNum);
   printf("最后一个客户离开时间:%d分\n", en.OccurTime);
 }
-void main()
+int main()
 {
 //fq=fopen("a.txt","w"); // 打开a.txt文件，用于写入客户到达信息
 //fp=fopen("b.txt","w"); // 打开b.txt文件，用于写入有序事件表的历史记录

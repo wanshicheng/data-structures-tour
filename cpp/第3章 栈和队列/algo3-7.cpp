@@ -10,7 +10,7 @@ int ack(int m, int n)
     z=ack(m-1, ack(m, n-1)); 
   return z;
 }
-void main()
+int main()
 {
   int m, n;
   printf("ÇëÊäÈëm,n£º");
