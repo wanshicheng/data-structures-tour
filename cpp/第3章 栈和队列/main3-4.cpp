@@ -5,7 +5,7 @@ typedef int QElemType;
 #include"bo3-4.h" 
 #define ElemType QElemType 
 #include"func2-2.h" 
-void main()
+int main()
 {
   Status j;
   int i=0, m;
