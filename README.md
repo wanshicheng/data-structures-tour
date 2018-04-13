@@ -62,7 +62,9 @@ Windows
 ```
 
 ### MSYS2
-可以参照下面的网址
+没有使用Cygwin 或 MinGW 是因为它们下载速度实在是太慢了，而且容易出错。
+
+MSYS2 可以参照下面的网址
 
 https://mirrors.tuna.tsinghua.edu.cn/help/msys2/
 
@@ -71,6 +73,8 @@ https://mirrors.tuna.tsinghua.edu.cn/help/msys2/
 pacman -S mingw-w64-x86_64-gcc
 
 pacman -S mingw-w64-i686-gcc
+
+从而使得下载速度加快。
 ### LLVM
 在Win中编译CPP需要注意目标平台版本，32位和64位的区别。需要在编译命令中添加 --target 的选项设置
 
