@@ -3,11 +3,11 @@
  #include"c1.h"
  #include"c3-1.h" /* 采用顺序栈 */
  #include"bo3-1.c" /* 利用顺序栈的基本操作 */
-
  void conversion() /* 算法3.1 */
  { /* 对于输入的任意一个非负十进制整数，打印输出与其等值的八进制数 */
    SqStack s;
    unsigned n; /* 非负整数 */
+   
    SElemType e;
    InitStack(&s); /* 初始化栈 */
    printf("n(>=0)=");
@@ -25,7 +25,7 @@
    printf("\n");
  }
 
- void main()
+ int main()
  {
    conversion();
- }
+ }
