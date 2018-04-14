@@ -28,7 +28,7 @@
    printf("\n");
  }
 
- void main()
+ int main()
  {
    conversion();
  }

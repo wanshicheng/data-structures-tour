@@ -25,7 +25,7 @@ void conversion()
   printf("\n");
   DestroyStack(s);
 }
-void main()
+int main()
 {
   conversion();
 }

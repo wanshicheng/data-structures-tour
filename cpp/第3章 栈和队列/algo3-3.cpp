@@ -35,7 +35,7 @@ void LineEdit()
   }
   DestroyStack(s); 
 }
-void main()
+int main()
 {
   fp=fopen("ed.txt", "w");
   
