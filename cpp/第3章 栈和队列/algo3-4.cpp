@@ -132,4 +132,3 @@ int main()
   else
     printf("此迷宫没有从入口到出口的路径\n");
 }
-
