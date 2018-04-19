@@ -47,7 +47,7 @@ int Index_KMP(SString S, SString T, int pos, int next[])
   else
     return 0;
 }
-void main()
+int main()
 {
   int i, *p;
   SString s1, s2; 
